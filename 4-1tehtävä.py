@@ -69,7 +69,7 @@ class Peikko(Olento):
     
 
 class Vuorenpeikko(Peikko):
-    
+    """Konstruktori."""
     NIMITAVUT = ("Dar", "Bar", "Rar", "Sar", "Lar")
     RIEMUTAVUT = ("saa", "rayy", "aahh", "dsaas")
 
@@ -78,7 +78,7 @@ class Vuorenpeikko(Peikko):
         super().__init__(random.randint(2, 6), random.randint(1, 2))
 
 class Luolapeikko(Peikko):
-
+    """Konstruktori."""
     NIMITAVUT = ("Dur", "Bur", "Rur", "Sur", "Lur")
     RIEMUTAVUT = ("suu", "Räyy", "aaagh", "Kooor")
 
